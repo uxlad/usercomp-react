@@ -1,0 +1,24 @@
+.box{
+    display: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.error, .success{
+    display: block;
+}
+
+.error{
+    background-color: #f8ad9d;
+    color: #941b0c;
+    border: 1px solid #f08080;
+}
+
+.success{
+    background-color: #dde5b6;
+    color: #31572c;
+    border: 1px solid #81b29a;
+}
